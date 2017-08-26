@@ -1,7 +1,9 @@
 # Define a variable for the quantity of types of people. Binary value
 types_of_people = 10
+
 # Call a variable within a string variable definition
 x = "There are #{types_of_people} types of people."
+
 # Define a couple string variables
 binary = "binary"
 do_not = "don't"

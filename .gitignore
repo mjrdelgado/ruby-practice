@@ -1,3 +1,7 @@
+# MacOS file
+.DS_Store
+
+# Ruby stuff
 *.gem
 *.rbc
 /.config

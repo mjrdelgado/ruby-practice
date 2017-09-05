@@ -16,5 +16,5 @@ file_again = $stdin.gets.chomp
 txt_again = open(file_again)
 # Prints the contents of the file object
 print txt_again.read
-# Close file when we are done with them
+# Closes the file when we are done with it
 txt_again.close()

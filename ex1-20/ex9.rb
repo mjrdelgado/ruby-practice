@@ -1,7 +1,7 @@
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
 
-# I've added a trailing \n character, to make it loo prettier
+# I've added a trailing \n character, to make it look prettier
 months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 puts "Here are the days: #{days}"

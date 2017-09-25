@@ -1,4 +1,4 @@
-# This exercise shows how to handle varables and function parameters
+# This exercise shows how to handle variables and function parameters
 
 def chesse_and_crackers(cheese_count, boxes_of_crackers)
   puts "You have #{cheese_count} cheeses!"

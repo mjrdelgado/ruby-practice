@@ -17,6 +17,7 @@ puts backlash_cat
 puts fat_cat
 
 # If you use single quotes, the #{} is going to be interpreted literally
+# It disables interpolation
 types_of_people = 10
 puts "Now, a single quoted string from an old joke"
 puts 'There are #{types_of_people} types of people.'

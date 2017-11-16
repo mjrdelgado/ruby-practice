@@ -1,22 +1,24 @@
 # creates a mapping of state to abbreviation
 states = {
-  'Oregon' => 'OR',
-  'Florida' => 'FL',
-  'California' => 'CA',
-  'New York' => 'NY',
-  'Michigan' => 'MI'
+  'Heredia' => 'HE',
+  'San Jose' => 'SJ',
+  'Cartago' => 'CA',
+  'Limon' => 'LI',
+  'Puntarenas' => 'PU'
+  'Guanacaste' => 'GU'
 }
 
 # create a basic set of states and some cities in them
 cities = {
-  'CA' => 'San Francisco',
-  'MI' => 'Detroit',
-  'FL' => 'Jacksonville'
+  'HE' => 'San Pablo',
+  'SJ' => 'Pavas',
+  'CA' => 'Tres Rios'
 }
 
 # add some more cities
-cities['NY'] = 'New York'
-cities['OR'] = 'Portland'
+cities['PU'] = 'Manuel Antonio'
+cities['GU'] = 'La Cruz'
+cities['LI'] = 'Manzanillo'
 
 # puts out some cities
 puts '-' * 10

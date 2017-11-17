@@ -4,7 +4,7 @@ states = {
   'San Jose' => 'SJ',
   'Cartago' => 'CA',
   'Limon' => 'LI',
-  'Puntarenas' => 'PU'
+  'Puntarenas' => 'PU',
   'Guanacaste' => 'GU'
 }
 
@@ -22,21 +22,21 @@ cities['LI'] = 'Manzanillo'
 
 # puts out some cities
 puts '-' * 10
-puts "NY State has: #{cities['NY']}"
-puts "OR State has: #{cities['OR']}"
+puts "HE State has: #{cities['HE']}"
+puts "SJ State has: #{cities['SJ']}"
 
 # puts some states
 puts '-' * 10
-puts "Michigan's abbreviation is: #{states['Michigan']}"
-puts "Florida's abbreviation is: #{states['Florida']}"
+puts "Cartago's abbreviation is: #{states['Cartago']}"
+puts "Limon's abbreviation is: #{states['Limon']}"
 
 # do it by using the state then cities dict
 puts '-' * 10
 # First call states hash, then calls cities hash
-# states['Michigan'] = 'MI'
-# cities['MI'] = 'Detroit'
-puts "Michigan has: #{cities[states['Michigan']]}"
-puts "Florida has: #{cities[states['Florida']]}"
+# states['Guanacaste'] = 'GU'
+# cities['GU'] = 'La Cruz'
+puts "Guanacaste has: #{cities[states['Guanacaste']]}"
+puts "Puntarenas has: #{cities[states['Puntarenas']]}"
 
 # puts every state abbreviation
 puts '-' * 10
@@ -59,13 +59,13 @@ end
 
 puts '-' * 10
 # by default ruby says "nil" when something isn't in there
-state = states['Texas']
+state = states['Alajuela']
 
 if !state
-  puts "Sorry, no Texas."
+  puts "Sorry, no Alajuela."
 end
 
 # default values using ||= with the nil result
-city = cities['TX']
+city = cities['AL']
 city ||= 'Does Not Exist'
-puts "The city for the state 'TX' is: #{city}"
+puts "The city for the state 'AL' is: #{city}"
